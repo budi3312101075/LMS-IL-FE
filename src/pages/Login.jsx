@@ -66,7 +66,7 @@ const Login = () => {
                 Unlock your potential with our cutting-edge Learning Management
                 System
               </h1>
-              <div className="w-full flex items-end justify-end">
+              <div className="w-full flex items-end justify-end xl:-mt-0 -mt-5">
                 <img className="h-96 w-80" src="./Lauren.png" alt="" />
               </div>
             </div>
