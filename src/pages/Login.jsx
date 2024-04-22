@@ -39,7 +39,7 @@ const Login = () => {
             <p>#AnyoneAnything</p>
           </div>
           <Carousel
-            className="mt-10"
+            className="xl:mt-10 mt-4"
             responsive={responsive}
             removeArrowOnDeviceType={[
               "superLargeDesktop",
