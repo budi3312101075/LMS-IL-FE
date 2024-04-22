@@ -47,11 +47,11 @@ const Login = () => {
               "tablet",
               "mobile",
             ]}
-            autoPlay={true}
+            // autoPlay={true}
             autoPlaySpeed={1500}
             infinite={true}
           >
-            <div className="bg-[rgba(255,255,255,0.15)] h-[550px] w-11/12 ml-5 flex flex-col px-10 rounded-2xl gap-6">
+            <div className="bg-[rgba(255,255,255,0.15)] max-h-max w-11/12 ml-5 flex flex-col px-10 rounded-2xl gap-6">
               <img
                 className="w-14 absolute top-16 right-1"
                 src="./100.png"
@@ -66,12 +66,12 @@ const Login = () => {
                 Unlock your potential with our cutting-edge Learning Management
                 System
               </h1>
-              <div className="w-full ml-24">
+              <div className="w-full flex items-end justify-end">
                 <img className=" h-96 w-80" src="./Lauren.png" alt="" />
               </div>
             </div>
             {/* crousel slide ke 2 */}
-            <div className="bg-[rgba(255,255,255,0.15)] h-[550px] w-11/12 ml-5 flex flex-col px-10 rounded-2xl gap-6">
+            <div className="bg-[rgba(255,255,255,0.15)] max-h-max w-11/12 ml-5 flex flex-col px-10 rounded-2xl gap-6">
               <img
                 className="w-14 absolute top-16 right-1"
                 src="./100.png"
@@ -86,12 +86,12 @@ const Login = () => {
                 Unlock your potential with our cutting-edge Learning Management
                 System
               </h1>
-              <div className="w-full ml-24">
+              <div className="w-full flex items-end justify-end">
                 <img className=" h-96 w-80" src="./Lauren.png" alt="" />
               </div>
             </div>
             {/* crousel slide ke 3 */}
-            <div className="bg-[rgba(255,255,255,0.15)] h-[550px] w-11/12 ml-5 flex flex-col px-10 rounded-2xl gap-6">
+            <div className="bg-[rgba(255,255,255,0.15)] max-h-max w-11/12 ml-5 flex flex-col px-10 rounded-2xl gap-6">
               <img
                 className="w-14 absolute top-16 right-1"
                 src="./100.png"
@@ -106,7 +106,7 @@ const Login = () => {
                 Unlock your potential with our cutting-edge Learning Management
                 System
               </h1>
-              <div className="w-full ml-24">
+              <div className="w-full flex items-end justify-end">
                 <img className=" h-96 w-80" src="./Lauren.png" alt="" />
               </div>
             </div>
