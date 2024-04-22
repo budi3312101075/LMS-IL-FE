@@ -62,12 +62,12 @@ const Login = () => {
                 src="./emoticon.png"
                 alt=""
               />
-              <h1 className="text-xl text-white w-64 poppins-regular pt-7 ">
+              <h1 className="xl:text-xl text-lg text-white w-64 poppins-regular pt-7 ">
                 Unlock your potential with our cutting-edge Learning Management
                 System
               </h1>
-              <div className="w-full flex items-end justify-end mt-5">
-                <img className=" h-96 w-80" src="./Lauren.png" alt="" />
+              <div className="w-full flex items-end justify-end">
+                <img className="h-96 w-80" src="./Lauren.png" alt="" />
               </div>
             </div>
             {/* crousel slide ke 2 */}
