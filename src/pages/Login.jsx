@@ -51,7 +51,7 @@ const Login = () => {
             autoPlaySpeed={1500}
             infinite={true}
           >
-            <div className="bg-[rgba(255,255,255,0.15)] max-h-max w-11/12 ml-5 flex flex-col px-10 rounded-2xl gap-6 py-10">
+            <div className="bg-[rgba(255,255,255,0.15)] max-h-max w-11/12 ml-5 flex flex-col px-10 rounded-2xl gap-6">
               <img
                 className="w-14 absolute top-16 right-1"
                 src="./100.png"
@@ -66,50 +66,11 @@ const Login = () => {
                 Unlock your potential with our cutting-edge Learning Management
                 System
               </h1>
-              <div className="w-full flex items-end justify-end">
-                <img className=" h-80 w-80" src="./Lauren.png" alt="" />
+              <div className="w-full flex items-end justify-end mt-5">
+                <img className=" h-96 w-80" src="./Lauren.png" alt="" />
               </div>
             </div>
             {/* crousel slide ke 2 */}
-            <div className="bg-[rgba(255,255,255,0.15)] max-h-max w-11/12 ml-5 flex flex-col px-10 rounded-2xl gap-6">
-              <img
-                className="w-14 absolute top-16 right-1"
-                src="./100.png"
-                alt=""
-              />
-              <img
-                className="w-14 absolute top-52 left-1"
-                src="./emoticon.png"
-                alt=""
-              />
-              <h1 className="text-xl text-white w-64 poppins-regular pt-7 ">
-                Unlock your potential with our cutting-edge Learning Management
-                System
-              </h1>
-              <div className="w-full flex items-end justify-end">
-                <img className=" h-80 w-80" src="./Lauren.png" alt="" />
-              </div>
-            </div>
-            {/* crousel slide ke 3 */}
-            <div className="bg-[rgba(255,255,255,0.15)] max-h-max w-11/12 ml-5 flex flex-col px-10 rounded-2xl gap-6">
-              <img
-                className="w-14 absolute top-16 right-1"
-                src="./100.png"
-                alt=""
-              />
-              <img
-                className="w-14 absolute top-52 left-1"
-                src="./emoticon.png"
-                alt=""
-              />
-              <h1 className="text-xl text-white w-64 poppins-regular pt-7 ">
-                Unlock your potential with our cutting-edge Learning Management
-                System
-              </h1>
-              <div className="w-full flex items-end justify-end">
-                <img className=" h-80 w-80" src="./Lauren.png" alt="" />
-              </div>
-            </div>
           </Carousel>
         </div>
         <div className="xl:w-3/5 w-full bg-white lg:px-40  px-10 py-28 flex justify-center  h-screen">
