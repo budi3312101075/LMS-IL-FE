@@ -47,11 +47,11 @@ const Login = () => {
               "tablet",
               "mobile",
             ]}
-            // autoPlay={true}
+            autoPlay={true}
             autoPlaySpeed={1500}
             infinite={true}
           >
-            <div className="bg-[rgba(255,255,255,0.15)] max-h-max w-11/12 ml-5 flex flex-col px-10 rounded-2xl gap-6">
+            <div className="bg-[rgba(255,255,255,0.15)] max-h-max w-11/12 ml-5 flex flex-col px-10 rounded-2xl gap-6 py-10">
               <img
                 className="w-14 absolute top-16 right-1"
                 src="./100.png"
@@ -67,7 +67,7 @@ const Login = () => {
                 System
               </h1>
               <div className="w-full flex items-end justify-end">
-                <img className=" h-96 w-80" src="./Lauren.png" alt="" />
+                <img className=" h-80 w-80" src="./Lauren.png" alt="" />
               </div>
             </div>
             {/* crousel slide ke 2 */}
@@ -87,7 +87,7 @@ const Login = () => {
                 System
               </h1>
               <div className="w-full flex items-end justify-end">
-                <img className=" h-96 w-80" src="./Lauren.png" alt="" />
+                <img className=" h-80 w-80" src="./Lauren.png" alt="" />
               </div>
             </div>
             {/* crousel slide ke 3 */}
@@ -107,7 +107,7 @@ const Login = () => {
                 System
               </h1>
               <div className="w-full flex items-end justify-end">
-                <img className=" h-96 w-80" src="./Lauren.png" alt="" />
+                <img className=" h-80 w-80" src="./Lauren.png" alt="" />
               </div>
             </div>
           </Carousel>
