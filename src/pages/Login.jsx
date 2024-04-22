@@ -39,7 +39,7 @@ const Login = () => {
             <p>#AnyoneAnything</p>
           </div>
           <Carousel
-            className="mt-10 max-h-screen"
+            className="mt-10"
             responsive={responsive}
             removeArrowOnDeviceType={[
               "superLargeDesktop",
@@ -112,7 +112,7 @@ const Login = () => {
             </div>
           </Carousel>
         </div>
-        <div className="xl:w-3/5 w-full bg-white lg:px-40 lg:py-36 px-10 py-28 flex justify-center  h-screen">
+        <div className="xl:w-3/5 bg-white lg:px-40  px-10 py-28 flex justify-center  h-screen">
           <div className="xl:w-4/5 w-full">
             <h1 className="text-2xl text-black font-bold">Login 🙌</h1>
             <h3 className="text-lg text-black mt-3">
